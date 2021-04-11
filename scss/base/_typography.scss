@@ -1,30 +1,47 @@
 /* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+* {
+  font-family: $font-style-main;
+  color: $color-secondary;
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}  
+
+
+/* ============================================= */
 /*              Typography                       */
 /* ============================================= */
 
 .headline-primary {
-    color: #58e1c1;
+    color: $color-primary;
     margin-left: 10px;
   }
   
   .headline-secondary {
-    font-weight: 300;
-    color: #777;
+    font-weight: $font-wt-med;
+    color: $color-secondary;
   }
   
   .link {
-    color: #51ddfc;
-    font-weight: 700;
+    color: $color-accent;
+    font-weight: $font-wt-lrg;
   }
   
   .blockquote {
     font-size: 1.5em;
-    font-weight: 300;
+    font-weight: $font-wt-med;
     font-style: italic;
     margin-left: 20px;
     padding-left: 20px;
-    border-left: 8px solid #58e1c1;
+    border-left: 8px solid $color-primary;
     border-radius: 5px;
   }
-  
-  
