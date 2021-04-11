@@ -396,23 +396,23 @@ a {
     .nav {
       flex-direction: row;
       justify-content: flex-end;
-      align-items: center; } }
-  /* line 15, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_navigation.scss */
-  .nav-link {
-    text-align: center;
-    border-radius: 5px;
-    padding: 10px 0;
-    display: block;
-    width: 100%;
-    transition: background-color .2s ease-in-out,  color .2s ease-in-out; }
-    @media (min-width: 768px) {
-      /* line 15, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_navigation.scss */
+      align-items: center; }
+      /* line 14, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_navigation.scss */
       .nav-link {
-        flex-basis: 100px; } }
-  /* line 28, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_navigation.scss */
-  .nav:hover {
-    color: #fff;
-    background-color: #58e1c1; }
+        text-align: center;
+        border-radius: 5px;
+        padding: 10px 0;
+        display: block;
+        width: 100%;
+        transition: background-color .2s ease-in-out,  color .2s ease-in-out; } }
+    @media (min-width: 768px) and (min-width: 768px) {
+      /* line 14, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_navigation.scss */
+      .nav-link {
+        flex-basis: 100px; }
+        /* line 25, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_navigation.scss */
+        .nav-link:hover {
+          color: #fff;
+          background-color: #58e1c1; } }
 
 /* ============================================= */
 /*              Grid System                      */
