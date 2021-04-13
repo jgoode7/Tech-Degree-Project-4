@@ -7,7 +7,7 @@
     flex-basis: 100%;
     display: flex;
     flex-direction: column;
-    @media (min-width: 768px) {
+    @media (min-width: $tablet-break) {
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
@@ -20,7 +20,7 @@
       transition: 
         background-color .2s ease-in-out, 
         color .2s ease-in-out;
-      @media (min-width: 768px) {
+      @media (min-width: $tablet-break) {
         flex-basis: 100px;
     &:hover {
         color: $color-button;
