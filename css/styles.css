@@ -383,6 +383,86 @@ a {
   border-radius: 5px; }
 
 /* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+/* line 5, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px; }
+  /* line 13, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
+  .btn:hover {
+    background-color: white; }
+  @media (min-width: 768px) {
+    /* line 5, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
+    .btn {
+      padding: 10px 30px; } }
+
+/* line 21, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
+.default {
+  background-color: #51ddfc; }
+  /* line 23, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
+  .default:hover {
+    background-color: #9cecfd; }
+
+/* line 28, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
+.error {
+  background-color: #e4757a; }
+  /* line 30, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
+  .error:hover {
+    background-color: #f1b5b8; }
+
+/* line 35, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
+.info {
+  background-color: #927bc1; }
+  /* line 37, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
+  .info:hover {
+    background-color: #bdafd9; }
+
+/* line 42, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
+.success {
+  background-color: #63cc82; }
+  /* line 44, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
+  .success:hover {
+    background-color: #9ddfb0; }
+
+/* line 49, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
+.warning {
+  background-color: #fd7856; }
+  /* line 51, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
+  .warning:hover {
+    background-color: #feb4a2; }
+
+/* ============================================= */
+/*              Forms                            */
+/* ============================================= */
+/* line 5, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_forms.scss */
+.form {
+  flex-basis: 100%; }
+
+/* line 9, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_forms.scss */
+.input {
+  display: block;
+  width: 94%;
+  margin: 10px auto 0;
+  border: none;
+  padding: 10px;
+  border-bottom: 5px solid #58e1c1; }
+
+/* line 18, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_forms.scss */
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+
+/* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
 /* line 5, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_navigation.scss */
@@ -396,23 +476,51 @@ a {
     .nav {
       flex-direction: row;
       justify-content: flex-end;
-      align-items: center; }
-      /* line 14, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_navigation.scss */
+      align-items: center; } }
+  /* line 15, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_navigation.scss */
+  .nav-link {
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+    transition: background-color .2s ease-in-out,  color .2s ease-in-out; }
+    @media (min-width: 768px) {
+      /* line 15, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_navigation.scss */
       .nav-link {
-        text-align: center;
-        border-radius: 5px;
-        padding: 10px 0;
-        display: block;
-        width: 100%;
-        transition: background-color .2s ease-in-out,  color .2s ease-in-out; } }
-    @media (min-width: 768px) and (min-width: 768px) {
-      /* line 14, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_navigation.scss */
-      .nav-link {
-        flex-basis: 100px; }
-        /* line 25, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_navigation.scss */
-        .nav-link:hover {
-          color: #fff;
-          background-color: #58e1c1; } }
+        flex-basis: 100px; } }
+    /* line 27, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_navigation.scss */
+    .nav-link:hover {
+      color: #fff;
+      background-color: #58e1c1; }
+
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+/* line 5, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_images.scss */
+.img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%; }
+
+/* line 14, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_images.scss */
+.img-frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc; }
+
+/* line 24, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_images.scss */
+.img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 /* ============================================= */
 /*              Grid System                      */
@@ -504,114 +612,6 @@ a {
 /* line 86, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_grid.scss */
 .card {
   flex-basis: 100%; }
-
-/* ============================================= */
-/*              Forms                            */
-/* ============================================= */
-/* line 5, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_forms.scss */
-.form {
-  flex-basis: 100%; }
-
-/* line 9, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_forms.scss */
-.input {
-  display: block;
-  width: 94%;
-  margin: 10px auto 0;
-  border: none;
-  padding: 10px;
-  border-bottom: 5px solid #58e1c1; }
-
-/* line 18, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_forms.scss */
-.hidden {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden; }
-
-/* ============================================= */
-/*              Images                           */
-/* ============================================= */
-/* line 5, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_images.scss */
-.img-avatar {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
-  max-height: 100%; }
-
-/* line 14, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_images.scss */
-.img-frame {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
-  padding: 13px;
-  border: 1px solid #ccc; }
-
-/* line 24, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_images.scss */
-.img-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
-/* ============================================= */
-/*              Buttons                          */
-/* ============================================= */
-/* line 5, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
-.btn {
-  margin-top: 15px;
-  width: 100%;
-  color: #fff;
-  border: none;
-  padding: 10px 0;
-  text-transform: uppercase;
-  border-radius: 5px; }
-  /* line 13, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
-  .btn:hover {
-    background-color: white; }
-  @media (min-width: 768px) {
-    /* line 5, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
-    .btn {
-      padding: 10px 30px; } }
-
-/* line 21, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
-.default {
-  background-color: #51ddfc; }
-  /* line 23, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
-  .default:hover {
-    background-color: #9cecfd; }
-
-/* line 28, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
-.error {
-  background-color: #e4757a; }
-  /* line 30, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
-  .error:hover {
-    background-color: #f1b5b8; }
-
-/* line 35, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
-.info {
-  background-color: #927bc1; }
-  /* line 37, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
-  .info:hover {
-    background-color: #bdafd9; }
-
-/* line 42, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
-.success {
-  background-color: #63cc82; }
-  /* line 44, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
-  .success:hover {
-    background-color: #9ddfb0; }
-
-/* line 49, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
-.warning {
-  background-color: #fd7856; }
-  /* line 51, ../../../../../../../../../../../../../Users/wddep-user/Desktop/Treehouse Projects/GitHub/Tech-Degree-Project-4/scss/component/_buttons.scss */
-  .warning:hover {
-    background-color: #feb4a2; }
 
 /* ============================================= */
 /*              Media Queries                    */

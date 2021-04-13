@@ -11,6 +11,7 @@
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
+    }
     &-link {
       text-align: center;
       border-radius: 5px;
@@ -22,13 +23,12 @@
         color .2s ease-in-out;
       @media (min-width: $tablet-break) {
         flex-basis: 100px;
+      }
     &:hover {
         color: $color-button;
         background-color: $color-primary;
         }
-      }
     }
-  }
 }
 
   
